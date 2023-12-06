@@ -3,3 +3,6 @@ provider "google" {
   region  = "asia-southeast"
   zone    = "asia-southeast-2"
 }
+module "plango-postgresql" {
+  source = "./plango-postgresql"
+}
