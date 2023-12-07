@@ -24,7 +24,9 @@ variable "project_instance" {
 }
 variable "db_user" {
     type = string
+    default = "foo"
 }
 variable "db_password" {
     type = string
+    default = "foo"
 }

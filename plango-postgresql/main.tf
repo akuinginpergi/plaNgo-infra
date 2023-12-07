@@ -1,4 +1,4 @@
-resource "google_sql_database_instance" "database" {
+resource "google_sql_database_instance" "main" {
     name = var.db_name
     database_version = var.db_version
     region = var.region
