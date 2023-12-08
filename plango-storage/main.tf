@@ -1,7 +1,5 @@
 resource "google_storage_bucket" "main" {
-  name = "plango-storage"
-  location = "ASIA-SOUTHEAST2"
+  name = var.storage_name
+  location = var.region
   force_destroy = false
-
-
 }
