@@ -2,7 +2,7 @@ resource "google_sql_database_instance" "main" {
     name = var.db_name
     database_version = var.db_version
     region = var.region
-    deletion_protection = true
+    deletion_protection = var.db_deletion
 
     settings {
       tier = var.db_machine_type

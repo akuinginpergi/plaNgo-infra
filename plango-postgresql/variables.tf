@@ -30,3 +30,7 @@ variable "db_password" {
     type = string
     default = "foo"
 }
+variable "db_deletion" {
+    type = bool
+    default = false
+}

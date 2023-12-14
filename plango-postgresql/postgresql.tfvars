@@ -1,0 +1,9 @@
+region = "asia-southeast2"
+zone = "asia-southeast2-a"
+db_name = "testing-plango-db"
+db_version = "POSTGRES_14"
+db_machine_type = "db-f1-micro"
+project_instance = ""
+db_user = "foo"
+db_password = ""
+db_deletion = false
