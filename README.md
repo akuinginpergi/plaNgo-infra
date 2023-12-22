@@ -1,3 +1,9 @@
 # Plan&Go! Terraform code
 
-Work in progress 🚧
+
+### How to use 
+
+1. Install [gcloud sdk](https://cloud.google.com/sdk) & [terraform](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
+2. Login to gcloud using your account 
+3. run 'terraform init' and 'terraform plan' to show configuration detail
+4. 'terraform apply' for applying terraform configuration
